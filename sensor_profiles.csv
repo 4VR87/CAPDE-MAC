@@ -1,0 +1,13 @@
+sensor_id,name,traffic_class,base_rate_pps,deadline_s,reliability_target,base_success,burst_enabled,burst_multiplier,burst_start_prob,burst_end_prob
+S01,Fall alarm,emergency,0.15,0.25,0.999,0.975,false,1.0,0.0,1.0
+S02,Arrhythmia alarm,emergency,0.15,0.25,0.999,0.970,false,1.0,0.0,1.0
+S03,ECG-A,real-time,3.80,0.50,0.990,0.965,false,1.0,0.0,1.0
+S04,Respiration,real-time,3.20,0.50,0.990,0.960,false,1.0,0.0,1.0
+S05,ECG-B,real-time,3.00,0.50,0.990,0.955,false,1.0,0.0,1.0
+S06,SpO2,periodic,1.50,1.50,0.980,0.950,false,1.0,0.0,1.0
+S07,Temperature,periodic,1.20,1.50,0.980,0.945,false,1.0,0.0,1.0
+S08,Blood pressure,periodic,1.40,1.50,0.980,0.940,false,1.0,0.0,1.0
+S09,EEG-A,bursty,2.20,0.90,0.990,0.935,true,3.0,0.030,0.300
+S10,EEG-B,bursty,2.20,0.90,0.990,0.930,true,3.0,0.030,0.300
+S11,Activity-A,background,0.90,4.00,0.950,0.925,false,1.0,0.0,1.0
+S12,Activity-B,background,0.90,4.00,0.950,0.920,false,1.0,0.0,1.0
